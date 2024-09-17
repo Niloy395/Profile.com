@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    flex: 0%;
+    flex-direction: column-reverse;
+    color:red;
+    text-align: center;
+    background-color: blue;
+    
+    
+}
+
+a{
+    color:blueviolet;
+    background-color: aqua;
+    text-decoration: none;
+    padding:5px 15px ;
+    font-size: medium;
+    border: 5px solid;
+    
+}
+a:hover{
+    color:white;
+    background-color: blue;
+}
+a:active{
+    color: red;
+    background-color: black;
+}
+ul{
+    list-style: decimal inside ;
+}
+ul li {
+    display: inline-block; 
+
+   text-align: end;
+
+}
+li:hover{
+    color: #43ec10;
+    background-color: black;
+}
+li:active{
+    color: #b607e2;
+}
+.t1{
+    border: 3px red solid;
+    width: 400px;
+    height: 100px;
+     overflow: scroll;
+}

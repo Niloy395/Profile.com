@@ -1,0 +1,234 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f0f0f0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #517aec;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Section */
+.profile {
+    background: #08d6fa;
+    color: #333;
+    padding: 2rem 0;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
+
+.profile-header h2 {
+    margin: 1rem 0 0.5rem;
+    font-size: 2rem;
+}
+
+.profile-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.profile-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.profile-content h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.profile-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-content ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+/* Projects Section */
+.projects {
+    background: #4caf50;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.project-card h3 {
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    background: #03a9f4;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form input {
+    background: #fff;
+    color: #333;
+}
+
+form textarea {
+    background: #fff;
+    color: #333;
+}
+
+form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: #ff4a40;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}

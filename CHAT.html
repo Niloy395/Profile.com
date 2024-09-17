@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><marquee>My Profile</marquee></h1>
+            <nav>
+                <ul>
+                    <li><a href="PERSONAL DETAILS-2.pdf">Personal Details</a></li>
+                    <li><a href="#Educational Background">Educational Background</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="profile">
+        <div class="container">
+            <div class="profile-header">
+                <img src="chayan photo.jpg" alt="Profile Picture">
+                <h2>Chayan Saha</h2>
+                <p>Web Developer | Designer | Content Creator</p>
+            </div>
+            <div class="profile-content">
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt, est eget dignissim facilisis, purus mi convallis magna, in tincidunt est quam ut dui.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project. Built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>A brief description of the project. A React application with modern features.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>A brief description of the project. A full-stack application with Python and Django.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chayan saha. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
